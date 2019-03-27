@@ -1,4 +1,11 @@
-//Header file
+/*
+ * Author: Auden Childress
+ * Version: final
+ * Started: March, 2019
+ * Copyright 2019
+ * GeistfulAutomaton@gmail.com
+ */
+
 #define SCREEN_WIDTH	240
 #define SCREEN_HEIGHT	160
 
@@ -29,7 +36,8 @@ typedef unsigned int	uint32;
 
 #define SCREENBUFFER	((volatile uint16 *) VRAM)
 
-struct Rect {
+struct Rect 
+{
 	uint32 x, y;
 	uint32 w, h;
 } player, prevPlayer, player2, prevPlayer2, ball, prevBall, line, a, b, c, d, e, f, g;
